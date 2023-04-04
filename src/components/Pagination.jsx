@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
+import './Pagination.css'
 
 const Pagination = () => {
     
@@ -8,7 +9,7 @@ const Pagination = () => {
 
   
   return (
-    <div className={`w-full py-4  fixed bottom-0 md:border-t-2  bg-white ${isDark ? "sm:'100px' sm:bg-black bg-black text-white shadow-md shadow-pink-900" : "shadow-md" }`}>
+    <div className={`w-full py-4  fixed bottom-0 md:border-t-2  bg-white ${isDark ? " back  text-white shadow-md shadow-pink-900" : "shadow-md" }`}>
     <div className=' flex max-w-[670px] justify-between mx-auto  gap-y-7'>
       <div className='gap-x-5 flex'>
         {

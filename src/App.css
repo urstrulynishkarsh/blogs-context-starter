@@ -9,7 +9,10 @@ body {
     overflow-x: hidden;
 }
 
-
+.back{
+    /* background-color: black; */
+    background: #000;
+}
 body {
     font-family: 'Inter', sans-serif;
 }
