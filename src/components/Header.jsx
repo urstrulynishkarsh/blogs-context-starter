@@ -8,7 +8,7 @@ import { AppContext } from '../context/AppContext'
 const Header = () => {
   const {isDark,setIsDark} = useContext(AppContext)
   return (
-    <div className={`w-full p-4 fixed top-0 bg-white  text-center  ${isDark ? "bg-black sm:bg-black text-white shadow-md shadow-pink-900" : "shadow-md" }`}>
+    <div className={`w-full p-4 fixed top-0 bg-white  text-center  ${isDark ? " sm:bg-black text-white shadow-md shadow-pink-900" : "shadow-md" }`}>
       {/* <header > */}
          <h1 className='font-bold text-2xl '>My Blogs</h1>
          <div className="Modes absolute p-1 right-4 flex justify-between top-[24%] border border-1 border-slate-400 rounded-full">
